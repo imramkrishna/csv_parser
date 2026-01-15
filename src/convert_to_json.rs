@@ -10,4 +10,3 @@ pub fn convert_to_json(headers:Vec<String>,data:Vec<String>)->String {
     let final_json=serde_json::to_string_pretty(&json_obj).unwrap();
     return final_json;
 }
-

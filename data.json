@@ -1,0 +1,74 @@
+[
+  {
+    "age": "21",
+    "country": "Nepal",
+    "email": "ram.yadav@example.com",
+    "id": "1",
+    "is_active": "true",
+    "name": "Ram Krishna Yadav",
+    "signup_date": "2024-08-12"
+  },
+  {
+    "age": "23",
+    "country": "India",
+    "email": "aditi.sharma@example.com",
+    "id": "2",
+    "is_active": "true",
+    "name": "Aditi Sharma",
+    "signup_date": "2023-11-05"
+  },
+  {
+    "age": "29",
+    "country": "USA",
+    "email": "john.doe@example.com",
+    "id": "3",
+    "is_active": "false",
+    "name": "John Doe",
+    "signup_date": "2022-06-18"
+  },
+  {
+    "age": "26",
+    "country": "Germany",
+    "email": "sophia.mueller@example.com",
+    "id": "4",
+    "is_active": "true",
+    "name": "Sophia Müller",
+    "signup_date": "2024-01-30"
+  },
+  {
+    "age": "31",
+    "country": "Japan",
+    "email": "kenji.tanaka@example.com",
+    "id": "5",
+    "is_active": "false",
+    "name": "Kenji Tanaka",
+    "signup_date": "2021-09-14"
+  },
+  {
+    "age": "27",
+    "country": "Spain",
+    "email": "maria.gonzalez@example.com",
+    "id": "6",
+    "is_active": "true",
+    "name": "Maria Gonzalez",
+    "signup_date": "2023-03-22"
+  },
+  {
+    "age": "24",
+    "country": "Pakistan",
+    "email": "ali.khan@example.com",
+    "id": "7",
+    "is_active": "true",
+    "name": "Ali Khan",
+    "signup_date": "2024-05-09"
+  },
+  {
+    "age": "34",
+    "country": "UK",
+    "email": "emma.brown@example.com",
+    "id": "8",
+    "is_active": "false",
+    "name": "Emma Brown",
+    "signup_date": "2020-12-01"
+  }
+]

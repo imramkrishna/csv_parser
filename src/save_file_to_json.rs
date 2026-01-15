@@ -1,13 +1,15 @@
-use std::fs::OpenOptions;
-use std::io::Write;
-pub fn save_file_to_json(data: String, filename: String) {
-    let mut file = OpenOptions::new()
-        .create(true) // Create file if it doesn't exist
-        .append(true) // Append mode (don't overwrite)
-        .open(&filename)
-        .expect("Unable to open file");
 
-    writeln!(file, "{}", data).expect("Unable to write to file");
+use std::fs;
+use serde_json::{Value, Map};
 
-    println!("✅ Appended to: {}", filename);
+pub fn save_file_to_json(data: Vec<Map<String, Value>>, filename: String) {
+    // Convert the Vec<Map> to a JSON array string
+    let json_string = serde_json::to_string_pretty(&data)
+        .expect("Failed to serialize JSON");
+
+    // Write to file
+    fs::write(&filename, json_string)
+        .expect("Unable to write to file");
+
+    println!("✅ Saved {} records to: {}", data.len(), filename);
 }
