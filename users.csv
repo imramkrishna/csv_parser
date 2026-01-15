@@ -1,0 +1,9 @@
+id,name,email,age,country,signup_date,is_active
+1,Ram Krishna Yadav,ram.yadav@example.com,21,Nepal,2024-08-12,true
+2,Aditi Sharma,aditi.sharma@example.com,23,India,2023-11-05,true
+3,John Doe,john.doe@example.com,29,USA,2022-06-18,false
+4,Sophia Müller,sophia.mueller@example.com,26,Germany,2024-01-30,true
+5,Kenji Tanaka,kenji.tanaka@example.com,31,Japan,2021-09-14,false
+6,Maria Gonzalez,maria.gonzalez@example.com,27,Spain,2023-03-22,true
+7,Ali Khan,ali.khan@example.com,24,Pakistan,2024-05-09,true
+8,Emma Brown,emma.brown@example.com,34,UK,2020-12-01,false
